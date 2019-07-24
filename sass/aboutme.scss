@@ -1,0 +1,32 @@
+.aboutme{
+    grid-column: 1 / -1;
+    display:grid; 
+    height: min-content;
+    padding: 2rem;
+    background-color: rgba(3, 3, 3, 0.685); 
+    color:white;
+    grid-template-row: repeat(auto-fit, 1fr);
+    grid-row-gap: 2rem;
+    justify-content: center;
+    
+    h2{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    &__section{
+        max-width: 75%;
+        font-size: 2rem;
+        justify-self: center;
+    }
+
+}
+
+.profile{
+    width: 15vw; 
+    min-width: 30rem;   
+    border-radius: 50%;   
+    margin: 0 2rem .5rem 0;    
+    float: left;      
+    shape-outside: circle();
+}
