@@ -1,10 +1,16 @@
 .landingArea{
     grid-column: 1 / -1; 
     display:grid;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/main.png);
+
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/main3-min.jpg);
+
+    //clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
     background-size: cover;
     background-attachment: fixed;
-
+    background-position: center center;
+    height:85vh;
+    min-height: 80rem; 
+  
     text-align: center;
     justify-items: center; 
     align-content: center; 
@@ -12,14 +18,16 @@
 
 .quote{
     width: 50%;
-    min-width: 40rem;
-    height: auto;
+
     font-size: 4rem;
     font-weight: 400;
-    color:white;
-    transform: translateY(1.7rem);
-}
 
-.quote P{
-    padding: 2rem;
-}
+    color:white;
+
+
+
+    &-small{
+        font-size: 2rem;
+    }
+} 
+

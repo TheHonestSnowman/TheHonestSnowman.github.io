@@ -3,13 +3,15 @@ input[type=checkbox] {
     display:none;
 }
 
+#header{padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */ }
+
 .header{
-    background-color:  #333;
+    //background-color:  rgba(51, 51, 51, 1);
     width: 100vw; 
     position: fixed;
     z-index: 1000;
-    box-shadow: 1px 1px 10px 1px #555;
-
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    //box-shadow: 1px 1px 10px 1px rgba(85, 85, 85, 1);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 

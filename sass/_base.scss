@@ -5,7 +5,7 @@ $color-primary-dark: #B28451;
 $color-secondary: #101d2c;
 
 $color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
+$color-grey-light-2: rgb(83, 83, 83);
 
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
@@ -31,6 +31,7 @@ $bp-small: 37.5em;    // 600px;
 html {
     box-sizing: border-box;
     font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+    
 
     @media only screen and (max-width: $bp-largest) {
         font-size: 50%;
@@ -47,6 +48,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: minmax(60rem, 95vh) repeat(3, min-content);
+    grid-template-rows: repeat(5, min-content);
+    grid-row-gap:2rem;
     
 }
