@@ -1,33 +1,32 @@
-.aboutme{
-    grid-column: 1 / -1;
-    display:grid; 
-    height: min-content;
-    background-color: rgba(3, 3, 3, 0.685); 
-    color:white;
-    grid-template-row: repeat(auto-fit, 1fr);
-    grid-row-gap: 2rem;
-    justify-content: center;
-    margin: 0 2rem;
+.about-image{
+    grid-column: 1 / 6; 
+    margin-left: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/profile.png);
+    background-size: cover;
+    background-position: center center;
 
+    height: 45vh;
+    min-height: 45rem;
+  
+}
+
+.about-text{
+    display:grid;
+    grid-column: 6 / 13; 
+    margin-right: 2rem;
+    background-color: rgb(219, 218, 218);
+    //border: .5rem rgb(83, 83, 83) solid;
+    //color:white;
+    font-size: 2rem;
+    justify-items: center; 
+    align-content: center; 
+}
+
+.about-text_inner{
+    width: 75%;
     
-    h2{
-        text-align: center;
-        font-size: 4rem;
-    }
-
-    &__section{
-        max-width: 75%;
-        font-size: 2rem;
-        justify-self: center;
-        padding:5rem 0;
-    }
-
 }
 
 .profile{
-    width: 15vw; 
-    min-width: 30rem;   
-    border-radius: 5%;
-    margin: 0 2rem .5rem 0;
-    float: left;
+    width: 100%;
 }
