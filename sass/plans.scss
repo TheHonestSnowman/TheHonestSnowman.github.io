@@ -14,8 +14,8 @@
             background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/weight.png);
             background-size: cover;
             background-position: center center;
-            height: 45vh;
-            min-height: 45rem;
+            height: 30vh;
+            min-height: 30rem;
             margin-left: 2rem;
 
 
@@ -23,6 +23,7 @@
             color:white;
             justify-items: center; 
             align-content: center; 
+           
             
             
         }
@@ -35,13 +36,15 @@
             grid-column: 5/9;
       
 
-            height: 45vh;
-            min-height: 45rem;
+            height: 30vh;
+            min-height: 30rem;
 
             font-size:6rem;
             color:white;
             justify-items: center; 
             align-content: center; 
+
+         
 
         }
 
@@ -53,14 +56,51 @@
             grid-column: 9/13;
             margin-right: 2rem;
                
-            height: 45vh;
-            min-height: 45rem;
+            height: 30vh;
+            min-height: 30rem;
 
             font-size:6rem;
             color:white;
             justify-items: center; 
             align-content: center; 
+           
         }
+
+        &__types-mealPlan{
+            display: grid;
+              background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/food.jpg);
+              background-size: cover;
+              background-position: center center;
+              grid-column: 1/7;
+              margin-left: 2rem;
+                 
+              height: 30vh;
+              min-height: 30rem;
+  
+              font-size:6rem;
+              color:white;
+              justify-items: center; 
+              align-content: center; 
+             
+          }
+
+          &__types-other{
+            display: grid;
+              background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/custom.jpg);
+              background-size: cover;
+              background-position: center center;
+              grid-column: 7/13;
+              margin-right: 2rem;
+                 
+              height: 30vh;
+              min-height: 30rem;
+  
+              font-size:6rem;
+              color:white;
+              justify-items: center; 
+              align-content: center; 
+             
+          }
 
 
         &__types{

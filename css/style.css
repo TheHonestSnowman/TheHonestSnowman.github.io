@@ -119,7 +119,7 @@ input[type=checkbox] {
     grid-column: 2 / 5;
     justify-self: center; }
     .header__logo-img {
-      width: 11vw;
+      width: 20vw;
       min-width: 180px;
       padding: 1rem; }
   .header__nav {
@@ -261,8 +261,8 @@ input[type=checkbox] {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/weight.png);
     background-size: cover;
     background-position: center center;
-    height: 45vh;
-    min-height: 45rem;
+    height: 30vh;
+    min-height: 30rem;
     margin-left: 2rem;
     font-size: 6rem;
     color: white;
@@ -274,8 +274,8 @@ input[type=checkbox] {
     background-size: cover;
     background-position: center center;
     grid-column: 5/9;
-    height: 45vh;
-    min-height: 45rem;
+    height: 30vh;
+    min-height: 30rem;
     font-size: 6rem;
     color: white;
     justify-items: center;
@@ -287,8 +287,34 @@ input[type=checkbox] {
     background-position: center center;
     grid-column: 9/13;
     margin-right: 2rem;
-    height: 45vh;
-    min-height: 45rem;
+    height: 30vh;
+    min-height: 30rem;
+    font-size: 6rem;
+    color: white;
+    justify-items: center;
+    align-content: center; }
+  .plans__types-mealPlan {
+    display: grid;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/food.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column: 1/7;
+    margin-left: 2rem;
+    height: 30vh;
+    min-height: 30rem;
+    font-size: 6rem;
+    color: white;
+    justify-items: center;
+    align-content: center; }
+  .plans__types-other {
+    display: grid;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/custom.jpg);
+    background-size: cover;
+    background-position: center center;
+    grid-column: 7/13;
+    margin-right: 2rem;
+    height: 30vh;
+    min-height: 30rem;
     font-size: 6rem;
     color: white;
     justify-items: center;
@@ -348,26 +374,24 @@ input[type=checkbox] {
       height: 40vh;
       min-height: 40rem; } }
 
-.about-image {
-  grid-column: 1 / 6;
-  margin-left: 2rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/profile.png);
-  background-size: cover;
-  background-position: center center;
-  height: 45vh;
-  min-height: 45rem; }
-
 .about-text {
+  grid-column: 1 / 13;
   display: grid;
-  grid-column: 6 / 13;
+  grid-template-columns: repeat(12, 1fr);
   margin-right: 2rem;
+  margin-left: 2rem;
   background-color: #dbdada;
   font-size: 2rem;
-  justify-items: center;
-  align-content: center; }
+  text-align: center;
+  align-items: center; }
+
+.about-image {
+  grid-column: 1 / 4;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/profile.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+  min-height: 50rem; }
 
 .about-text_inner {
-  width: 75%; }
-
-.profile {
-  width: 100%; }
+  grid-column: 5/ 12; }
