@@ -21,9 +21,12 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, min-content);
+  grid-template-rows: repeat(6, min-content);
   grid-row-gap: 2rem;
   grid-column-gap: 2rem; }
+
+ul {
+  list-style-type: none; }
 
 @media only screen and (max-width: 900px) {
   .container {
@@ -205,13 +208,12 @@ input[type=checkbox] {
   grid-column: 9 / -1;
   background-color: #dbdada;
   margin: 0 2rem 0 0rem;
+  border: 1px black solid;
   justify-items: center;
   align-items: center; }
 
 .fa {
   padding: 20px;
-  font-size: 100px;
-  width: 8rem;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; }
@@ -395,3 +397,22 @@ input[type=checkbox] {
 
 .about-text_inner {
   grid-column: 5/ 12; }
+
+.section {
+  padding: 0 2rem;
+  display: grid;
+  font-size: 2rem;
+  background-color: #dbdada;
+  justify-items: center; }
+  .section_two {
+    grid-column: 1/7;
+    margin-left: 2rem;
+    min-height: 30rem; }
+    .section_two ul {
+      text-align: center;
+      line-height: 2; }
+  .section_three {
+    grid-column: 7/13;
+    margin-right: 2rem;
+    min-height: 30rem;
+    line-height: 2; }

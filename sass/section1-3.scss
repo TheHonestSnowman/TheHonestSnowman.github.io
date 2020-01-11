@@ -1,0 +1,30 @@
+.section{
+    padding:0 2rem; 
+    display: grid;
+    
+    font-size: 2rem;
+    background-color: rgb(219, 218, 218);
+    justify-items: center; 
+    //align-content: center;
+
+    &_two{
+        grid-column: 1/7;
+
+        margin-left: 2rem;
+        min-height: 30rem;
+
+        ul{
+            text-align: center;
+            line-height: 2;
+        }
+    }
+
+    &_three{
+        grid-column: 7/13;
+
+        margin-right: 2rem;
+        min-height: 30rem;
+
+        line-height: 2;
+    }
+}

@@ -14,7 +14,7 @@
     grid-column: 9 / -1;
     background-color: rgb(219, 218, 218);
 	margin: 0 2rem 0 0rem; 
-
+	border:1px black solid;
 	justify-items: center; 
 	align-items:center;
      
@@ -23,8 +23,7 @@
 
 .fa {
 	padding: 20px;
-	font-size: 100px;
-	width: 8rem;
+	
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
@@ -37,6 +36,7 @@
   .fa-facebook {
 	background: #3B5998;
 	color: white;
+	
   }
   
   .fa-twitter {
