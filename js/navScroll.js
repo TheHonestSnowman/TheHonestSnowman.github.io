@@ -8,7 +8,7 @@ function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       document.getElementById("header").style.padding = "0px 0px";
       document.getElementById("header").style.backgroundColor = "rgb(10, 10, 10)";
-      document.getElementById("header_logo").style.width ="60%";
+      document.getElementById("header_logo").style.width ="75%";
       document.getElementById("header_logo").style.margin ="1rem";
 
       

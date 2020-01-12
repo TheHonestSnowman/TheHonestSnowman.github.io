@@ -10,7 +10,7 @@
     &_two{
         grid-column: 1/7;
 
-        margin-left: 2rem;
+        margin-left: 1rem;
         min-height: 30rem;
 
         ul{
@@ -22,9 +22,25 @@
     &_three{
         grid-column: 7/13;
 
-        margin-right: 2rem;
+        margin-right: 1rem;
         min-height: 30rem;
 
         line-height: 2;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .section{
+    &_two{
+        grid-column: 1/13;
+        margin: 0rem 1rem;
+    }
+
+    &_three{
+        grid-column: 1/13;
+        margin: 0rem 1rem;
+    }
+    }
+}
+

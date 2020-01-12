@@ -2,6 +2,8 @@ input[type=checkbox] {
     display:none;
 }
 
+
+
 .header{
     width: 100vw; 
     position: fixed;
@@ -9,55 +11,60 @@ input[type=checkbox] {
     transition: 0.4s;
 
     display: grid; 
-    text-align: center;
-    justify-items: center; 
-    align-content: center; 
     grid-template-columns: repeat(12, 1fr);
 
+    justify-items: center; 
+    align-content: center; 
     
     &__logo{
         grid-column: 2 / 5;
         
-  
-   
-
         &-img{
-            //width:30vw;
             width: 100%;
-            min-width: 40rem;
             margin: 2rem 0rem;
             transition: 0.4s;
+            
         }
-    }
-
-    
+    } 
 }
+
+
+
+@media only screen and (max-width: 1400px) {
+    .header{
+
+        &__logo{
+            grid-column: 2 / 6;
+        }
+    } 
+}
+
 
 
 @media only screen and (max-width: 900px) {
     .header{
-    background-color: rgb(10, 10, 10);
+        background-color: rgb(10, 10, 10);
+
         &__logo{
             grid-column: 4 / 10;
-            
-            width: 100%; 
+           
+            &-img{
+                margin: 0rem;
+            }
         }
-    
-    }
-    
+    } 
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .header{
             
-        
         &__logo{
-            grid-column: 1 / 13; 
-            width: 100%; 
-            margin: 1rem 0rem;
+            grid-column: 2 / 12; 
         }
         
-        }
+    }
 
     input[type=checkbox]:checked ~ header ul{
             height: auto;

@@ -3,31 +3,69 @@
     display:grid;
 
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/main3-min.jpg);
-
     clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 95%, 60% 95%, 50% 100%, 40% 95%, 0 95%, 0 0);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    height:100vh;
-    min-height: 80rem; 
+    height: min-content;
+    min-height: 90rem; 
   
     text-align: center;
     justify-items: center; 
     align-content: center; 
 }
 
+
+
 .quote{
     width: 50%;
-
     font-size: 4rem;
     font-weight: 400;
-
     color:white;
 
-
+    p{ margin-bottom:2rem;}
 
     &-small{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 } 
 
+
+
+@media only screen and (max-width: 1200px) {
+    .quote{
+        width: 75%;
+    
+        &-small{
+            font-size: 3rem;
+        }
+    } 
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .quote{
+        width: 85%;
+    
+        &-small{
+            font-size: 3rem;
+        }
+    } 
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .quote{
+        width: 100%;
+        padding: 2rem;
+        padding-top: 12rem;
+        padding-bottom: 8rem;
+    
+        &-small{
+            font-size: 3rem;
+        }
+    } 
+
+}

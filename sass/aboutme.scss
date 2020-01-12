@@ -14,8 +14,8 @@
 
     text-align: center;
     align-items: center;
-
    
+
 }
 
 .about-image{
@@ -35,3 +35,47 @@
     
 }
 
+
+@media only screen and (max-width: 900px) {
+
+
+
+    .about-text{
+        margin: 0rem 1rem;
+    }
+
+    .about-image{
+        grid-column: 1 / 5; 
+    }
+    .about-text_inner{
+        grid-column: 5/ 13; 
+        
+       
+    
+        
+        
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .about-text{
+        margin: 0rem 1rem;
+    }
+
+    .about-image{
+        grid-column: 1 / -1; 
+    }
+    .about-text_inner{
+        grid-column: 1/ -1; 
+        
+       
+    
+        
+        
+    }
+
+}
