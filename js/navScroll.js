@@ -9,14 +9,14 @@ function scrollFunction() {
       document.getElementById("header").style.padding = "0px 0px";
       document.getElementById("header").style.backgroundColor = "rgb(10, 10, 10)";
       document.getElementById("header_logo").style.width ="75%";
-      document.getElementById("header_logo").style.margin ="1rem";
+      document.getElementById("header_logo").style.margin ="1rem 0rem";
 
       
     } else {
       document.getElementById("header").style.padding = "0px 0px";
       document.getElementById("header").style.backgroundColor = "";
       document.getElementById("header_logo").style.width ="100%";
-      document.getElementById("header_logo").style.margin ="2rem";
+      document.getElementById("header_logo").style.margin ="2rem 0rem";
       
     }
   }
