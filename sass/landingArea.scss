@@ -4,11 +4,11 @@
 
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/main3-min.jpg);
 
-    //clip-path: polygon(0 0, 100% 0, 100% 95vh, 0 100%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 95%, 60% 95%, 50% 100%, 40% 95%, 0 95%, 0 0);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    height:85vh;
+    height:100vh;
     min-height: 80rem; 
   
     text-align: center;
