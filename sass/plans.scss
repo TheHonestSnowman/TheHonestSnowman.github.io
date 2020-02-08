@@ -16,7 +16,7 @@
     &__types-weightloss{
         grid-column: 1/5;
             
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/weight.png);
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/1.jpeg);
             
         margin-left: 2rem;
     }
@@ -24,13 +24,13 @@
     &__types-massgain{
         grid-column: 5/9;
 
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/mass.png);
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/2.jpeg);
     }
 
     &__types-endurance{
         grid-column: 9/13;
 
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/endurance.png);
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/3.jpeg);
         
         margin-right: 2rem;
     }

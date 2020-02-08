@@ -7,7 +7,9 @@ function height() {
 
     var headerHeight = $("header").outerHeight();
 
-      document.getElementById("quote").style.padding = "$headerHeight px 0px 0px 0px";
+      document.getElementById("quote").style.padding = headerHeight + "px 0px 0px 0px";
+
+
 
       
     } 

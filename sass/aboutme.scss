@@ -20,13 +20,15 @@
 
 .about-image{
     grid-column: 1 / 4; 
-    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../img/profile.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../img/Profile.jpg);
     background-size: cover;
-    background-position: center center;
+   background-position: center center;
 
     height: 50vh;
     min-height: 50rem;
   
+
+
 }
 .about-text_inner{
     grid-column: 5/ 12; 

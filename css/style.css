@@ -211,8 +211,7 @@ input[type=checkbox] {
 .landingArea {
   grid-column: 1 / -1;
   display: grid;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main3-min.jpg);
-  clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 95%, 60% 95%, 50% 100%, 40% 95%, 0 95%, 0 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/main.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -267,14 +266,14 @@ input[type=checkbox] {
   align-content: center; }
   .plans__types-weightloss {
     grid-column: 1/5;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/weight.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/1.jpeg);
     margin-left: 2rem; }
   .plans__types-massgain {
     grid-column: 5/9;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mass.png); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/2.jpeg); }
   .plans__types-endurance {
     grid-column: 9/13;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/endurance.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/3.jpeg);
     margin-right: 2rem; }
   .plans__types-mealPlan {
     grid-column: 1/7;
@@ -323,7 +322,7 @@ input[type=checkbox] {
 
 .about-image {
   grid-column: 1 / 4;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/profile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/Profile.jpg);
   background-size: cover;
   background-position: center center;
   height: 50vh;
