@@ -41,21 +41,21 @@
 
     &-1{
         grid-column: 1 / 5; 
-        background: linear-gradient(rgba(219, 218, 218,.5), rgba(219, 218, 218,.5));
+        background: linear-gradient(rgba(219, 218, 218,.25), rgba(219, 218, 218,.25));
         margin-left: 2rem;
         padding: 10px 40px;
     }
 
     &-2{
         grid-column: 5 / 9; 
-        background: linear-gradient(rgba(219, 218, 218,.5), rgba(219, 218, 218,.5));
+        background: linear-gradient(rgba(219, 218, 218,.25), rgba(219, 218, 218,.25));
        
         padding: 10px 40px;
     }
 
     &-3{
         grid-column: 9 / 13; 
-        background: linear-gradient(rgba(219, 218, 218,.5), rgba(219, 218, 218,.5));
+        background: linear-gradient(rgba(219, 218, 218,.25), rgba(219, 218, 218,.25));
         margin-right: 2rem;
         padding: 10px 40px;
     }

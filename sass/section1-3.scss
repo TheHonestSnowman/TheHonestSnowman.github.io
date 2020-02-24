@@ -3,9 +3,10 @@
     display: grid;
     
     font-size: 2rem;
-    background-color: white;
+    background-color: rgb(240,244,246);
     justify-items: center; 
     //align-content: center;
+    border: 1px rgb(230, 234, 236) solid;
 
     &_two{
         grid-column: 1/7;
