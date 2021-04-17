@@ -229,15 +229,15 @@ input[type=checkbox] {
       grid-row: 1/5;
       padding: 5px;
       display: none; }
-    .section_two .id1:checked ~ .main-image1 {
+    .section_two #id1:checked ~ .main-image1 {
       display: block; }
-    .section_two .id2:checked ~ .main-image2 {
+    .section_two #id2:checked ~ .main-image2 {
       display: block; }
-    .section_two .id3:checked ~ .main-image3 {
+    .section_two #id3:checked ~ .main-image3 {
       display: block; }
-    .section_two .id4:checked ~ .main-image4 {
+    .section_two #id4:checked ~ .main-image4 {
       display: block; }
-    .section_two .id5:checked ~ .main-image5 {
+    .section_two #id5:checked ~ .main-image5 {
       display: block; }
   .section_three {
     grid-column: 7/11;
