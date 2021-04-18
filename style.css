@@ -63,17 +63,19 @@ margin-bottom: 50px;
   width: 100%;
   position: relative;
   margin:0 auto;
+  
 }
 .thumbnails {
 text-align: center;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .thumbnails li {
   margin: 10px 10px 0 0;
   width: 150px;
   height: 150px;
   background: #fff;
-  display: inline-block;
   text-align: center;
   vertical-align: middle;
   float: left;
@@ -189,9 +191,9 @@ cursor: pointer;
 font-size: 18px;
 max-height: 0;
 overflow-y: auto;
--webkit-transition: max-height .45s;
--o-transition: max-height .45s;
-transition: max-height .45s;
+-webkit-transition: max-height .25s;
+-o-transition: max-height .25s;
+transition: max-height .25s;
 }
 
 .tab-content li {
@@ -218,14 +220,14 @@ font-size: 30px;
 line-height: 45px;
 display: block;
 text-align: center;
--webkit-transition: all .45s;
--o-transition: all .45s;
-transition: all .45s;
+-webkit-transition: all .25s;
+-o-transition: all .25s;
+transition: all .25s;
 }
-.collapse-menu input[type=radio] + label::after {
+.collapse-menu input[type=checkbox] + label::after {
 content: "+";
 }
-.collapse-menu input[type=radio]:checked + label::after {
+.collapse-menu input[type=checkbox]:checked + label::after {
 content: "-";
 }
 
@@ -256,7 +258,6 @@ float: right;
 .image_gallery {
   margin-bottom: 20px;
 }
-.thumbnails li,
 footer p,
 footer img {
   float: none;
@@ -266,6 +267,23 @@ footer img {
   height: 400px;
   
 }
+
+.headerbase {
+
+  margin-bottom: 10px;
+  }
+
+  .product_content {
+    padding-top: 10px;
+    margin-bottom: 0;
+   
+    }
+
+    .description h2 {
+      margin-bottom: 5px;
+     padding: 0;
+      }
+  
 
 footer {
   text-align: center;
