@@ -265,26 +265,18 @@ footer img {
 .thumbnails .gallery_content,
 .image-box {
   height: 400px;
-  
 }
-
 .headerbase {
-
   margin-bottom: 10px;
   }
-
-  .product_content {
-    padding-top: 10px;
-    margin-bottom: 0;
-   
+.product_content {
+  padding-top: 10px;
+  margin-bottom: 0; 
     }
-
-    .description h2 {
-      margin-bottom: 5px;
-     padding: 0;
-      }
-  
-
+.description h2 {
+  margin-bottom: 5px;
+  padding: 0;
+    }
 footer {
   text-align: center;
 }
